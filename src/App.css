@@ -1,33 +1,190 @@
-.App {
+* {
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.note-editor {
+  font-size: 1.6rem;
+  position: relative;
+  padding: 1rem 1rem;
+  height: 50vh;
+  box-sizing: border-box;
+  background-image: url(./assets/hero.jpg);
+  background-size: cover;
+  background-position: top;
+}
+
+.note-editor__Title {
+  position: absolute;
+  left: 10%;
+  width: 80vw;
+}
+
+input[type="text"] {
+  font-size: 1.6rem;
+  opacity: 0.2;
+  width: 100%;
+  padding: 0.8rem 2rem;
+  margin: 0.6rem 0;
+  border: 0.1rem solid;
+  border-radius: 4px;
+  color: black;
+  box-sizing: border-box;
+}
+
+input[type="text"]:focus {
+  width: 100%;
+  padding: 0.8rem 2rem;
+  margin: 0.6rem 0;
+  border-radius: 0.4rem;
+
+  box-sizing: border-box;
+}
+
+.note-editor__description {
+  position: absolute;
+  top: 18%;
+  left: 10%;
+  width: 80vw;
+  height: 30vh;
+  font-size: 1.6rem;
+}
+
+textarea {
+  width: 100%;
+  height: 100%;
+  opacity: 0.2;
+  padding: 1rem 2rem;
+  border: 0.1rem solid;
+  color: black;
+  font-weight: bolder;
+  border-radius: 0.4rem;
+  box-sizing: border-box;
+  font-size: 20px;
+}
+
+.note-editor__submit {
+  position: absolute;
+  top: 82%;
+  right: 10%;
+  width: 80vw;
+}
+
+.btn {
+  height: 5vh;
+  border: none;
+  border-radius: 0.4rem;
+  cursor: pointer;
+}
+
+.btn:hover {
+  height: 5vh;
+
+  border: none;
+  border-radius: 0.4rem;
+}
+
+.btn--submit {
+  font-weight: 600;
+  opacity: 0.5;
+  width: 100%;
+}
+
+.btn--submit:hover {
+  width: 100%;
+  box-shadow: 0 1.5rem 3rem rgba(0, 0, 0, 0.199);
+  background-color: aqua;
+}
+
+.display-notes {
+  position: relative;
+  font-size: 1.6rem;
+  height: 50vh;
+}
+
+.display-notes__heading {
   text-align: center;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.display-notes__render {
+  position: relative;
+  margin: 0 5%;
+  margin-bottom: 2px;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  border-bottom: 1px solid;
+  border-top: 1px solid;
+
+  padding-bottom: 5px;
 }
 
-.App-link {
-  color: #61dafb;
+.notes {
+  overflow-wrap: break-word;
+  width: 60%;
+  margin-left: 20px;
+  max-width: 55%;
+  margin-right: 10px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.display-notes__title {
+  font-size: 2rem;
+  display: block;
+}
+.display-notes__description {
+  display: block;
+  margin-top: 1rem;
+}
+/* .display-notes__edit {
+  position: absolute;
+  top: 1rem;
+  right: 10%;
+  display: inline-block;
+}
+.display-notes__delete {
+  position: absolute;
+  top: 1rem;
+  right: 5%;
+  display: inline-block;
+} */
+
+.btn__wapper {
+  padding: 0 auto;
+  width: 30%;
+}
+
+.btn__wapper div {
+  float: right;
+  margin-right: 10px;
+}
+
+.btn--delete {
+  margin-top: 1rem;
+  padding: 10px;
+  display: inline-block;
+}
+
+.btn--delete:hover {
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.199);
+  background-color: aqua;
+}
+
+.btn--edit {
+  margin-top: 1rem;
+  margin-right: 15px;
+  padding: 10px;
+  display: inline-block;
+}
+
+.btn--edit:hover {
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.199);
+  background-color: aqua;
+}
+
+.fontaw {
+  float: left;
+  margin-top: 5px;
+  margin-left: 5px;
 }
