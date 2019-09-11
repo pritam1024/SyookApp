@@ -104,6 +104,7 @@ textarea {
   position: relative;
   font-size: 1.6rem;
   height: 50vh;
+  overflow-y: auto;
 }
 
 .display-notes__heading {
@@ -137,18 +138,6 @@ textarea {
   display: block;
   margin-top: 1rem;
 }
-/* .display-notes__edit {
-  position: absolute;
-  top: 1rem;
-  right: 10%;
-  display: inline-block;
-}
-.display-notes__delete {
-  position: absolute;
-  top: 1rem;
-  right: 5%;
-  display: inline-block;
-} */
 
 .btn__wapper {
   padding: 0 auto;
@@ -211,5 +200,32 @@ textarea {
 
   .btn--delete {
     padding: 0 18;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .display-notes__render {
+    display: flex;
+  }
+
+  .fontaw {
+    font-size: 30px;
+  }
+
+  .notes {
+    margin: 0;
+    padding: 0;
+    width: 60%;
+    padding-left: 5px;
+  }
+
+  .btn__wapper {
+    padding: 0;
+    margin: 0;
+    position: relative;
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
   }
 }

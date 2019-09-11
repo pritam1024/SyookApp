@@ -6,14 +6,7 @@ import DisplayNotes from "./components/displayNotes";
 
 class App extends Component {
   state = {
-    notes: [
-      { title: "qqqqqqqqqqq", description: "ajdffff" },
-      {
-        title: "qqqqqqqqqqq",
-        description:
-          "ajdfffddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddf"
-      }
-    ],
+    notes: [],
     note: {
       title: "",
       description: ""
