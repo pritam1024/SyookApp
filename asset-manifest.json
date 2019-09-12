@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/pritam1024/SyookApp/static/css/main.391184e6.chunk.css",
-    "main.js": "/pritam1024/SyookApp/static/js/main.f1ec94d3.chunk.js",
-    "main.js.map": "/pritam1024/SyookApp/static/js/main.f1ec94d3.chunk.js.map",
-    "runtime~main.js": "/pritam1024/SyookApp/static/js/runtime~main.32a60f24.js",
-    "runtime~main.js.map": "/pritam1024/SyookApp/static/js/runtime~main.32a60f24.js.map",
-    "static/js/2.0e65504b.chunk.js": "/pritam1024/SyookApp/static/js/2.0e65504b.chunk.js",
-    "static/js/2.0e65504b.chunk.js.map": "/pritam1024/SyookApp/static/js/2.0e65504b.chunk.js.map",
-    "index.html": "/pritam1024/SyookApp/index.html",
-    "precache-manifest.a31c3bc55299b47ac640f7e42cc50c18.js": "/pritam1024/SyookApp/precache-manifest.a31c3bc55299b47ac640f7e42cc50c18.js",
-    "service-worker.js": "/pritam1024/SyookApp/service-worker.js",
-    "static/css/main.391184e6.chunk.css.map": "/pritam1024/SyookApp/static/css/main.391184e6.chunk.css.map",
-    "static/media/App.css": "/pritam1024/SyookApp/static/media/hero.6e09f410.jpg"
+    "main.css": "/SyookApp/static/css/main.e2e8cd72.chunk.css",
+    "main.js": "/SyookApp/static/js/main.abb766f1.chunk.js",
+    "main.js.map": "/SyookApp/static/js/main.abb766f1.chunk.js.map",
+    "runtime~main.js": "/SyookApp/static/js/runtime~main.31a29fd4.js",
+    "runtime~main.js.map": "/SyookApp/static/js/runtime~main.31a29fd4.js.map",
+    "static/js/2.0e65504b.chunk.js": "/SyookApp/static/js/2.0e65504b.chunk.js",
+    "static/js/2.0e65504b.chunk.js.map": "/SyookApp/static/js/2.0e65504b.chunk.js.map",
+    "index.html": "/SyookApp/index.html",
+    "precache-manifest.6ba3a9345cfbfb368a86805571748c76.js": "/SyookApp/precache-manifest.6ba3a9345cfbfb368a86805571748c76.js",
+    "service-worker.js": "/SyookApp/service-worker.js",
+    "static/css/main.e2e8cd72.chunk.css.map": "/SyookApp/static/css/main.e2e8cd72.chunk.css.map",
+    "static/media/App.css": "/SyookApp/static/media/hero.6e09f410.jpg"
   }
 }
